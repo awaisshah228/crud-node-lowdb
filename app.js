@@ -1,13 +1,6 @@
 import express from "express";
 import { Low } from "lowdb";
 import { JSONFile } from "lowdb/node";
-import {
-  getNotes,
-  getSingleNote,
-  createNote,
-  updateNote,
-  deleteNote,
-} from "./controllers/note.js";
 import noteRouter from './routes/note.js'
 
 
